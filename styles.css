@@ -83,6 +83,7 @@ header a {
   width: fit-content;
   color: white;
   padding: 12px 16px;
+  border-color: white;
   border-radius: 10px;
 }
 
@@ -119,4 +120,58 @@ header a {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 40px;
+}
+
+.quote {
+  display: flex;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 15%;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: bold;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 80px;
+}
+
+.sign-up-background {
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6 ;
+  padding: 32px 48px;
+  border-radius: 15px;
+  color: #E5E7EB;
+}
+
+.sign-up-text {
+  max-width: 400px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
